@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700&display=swap");
+.body {
+  background-color: #101010;
+  color: white;
+  margin: 0 auto;
+  font-family: Manrope;
+  font-weight: 200;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.about-me, .list-of-services, .contacts {
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.h {
+  text-align: center;
+  font-family: "Exo 2";
+  color: red;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-timing-function: cubic-bezier();
+          animation-timing-function: cubic-bezier();
+  -webkit-animation-name: header-animation;
+          animation-name: header-animation;
+}
+
+.h3 {
+  text-align: left;
+}
+
+.offer {
+  font-size: .9em;
+}
+
+.price {
+  font-family: "Exo 2";
+  color: red;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@-webkit-keyframes header-animation {
+  from {
+    color: red;
+  }
+  25% {
+    color: lightcoral;
+  }
+  to {
+    color: red;
+  }
+}
+
+@keyframes header-animation {
+  from {
+    color: red;
+  }
+  25% {
+    color: lightcoral;
+  }
+  to {
+    color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */
